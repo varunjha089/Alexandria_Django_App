@@ -12,3 +12,11 @@ Install the required dependencies
 ```Powershell
 pip install -r requirements.txt
 ```
+
+### Running with `uvicorn`
+
+```powershell
+python -m uvicorn Alexandria.asgi:application
+```
+
+To learn more about `uvicorn` click [here](https://docs.djangoproject.com/en/4.1/howto/deployment/asgi/uvicorn/)
