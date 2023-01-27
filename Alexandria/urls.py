@@ -16,6 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+# importing views file
+from primer.views import say_hello
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    # mapping the primer views
+    path('say_hello/', say_hello),
 ]
