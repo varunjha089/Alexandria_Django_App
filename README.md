@@ -1,4 +1,6 @@
 # Alexandria Django App
+[![.github/workflows/django.yml](https://github.com/varunjha089/Alexandria_Django_App/actions/workflows/django.yml/badge.svg)](https://github.com/varunjha089/Alexandria_Django_App/actions/workflows/django.yml)
+
 https://training.talkpython.fm/courses/details/getting-started-with-django
 
 ### Creating virtual Environment
